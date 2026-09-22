@@ -11,6 +11,8 @@ const players = [
     average: 48.5,
     strikeRate: 237.31,
     wickets: 0,
+    hundreds: 1,
+    fifties: 5,
   },
   {
     id: 2,
@@ -24,6 +26,8 @@ const players = [
     average: 45.75,
     strikeRate: 163.03,
     wickets: 0,
+    hundreds: 1,
+    fifties: 6,
   },
   {
     id: 3,
@@ -37,6 +41,8 @@ const players = [
     average: 45.13,
     strikeRate: 157.99,
     wickets: 0,
+    hundreds: 1,
+    fifties: 8,
   },
   {
     id: 4,
@@ -50,6 +56,8 @@ const players = [
     average: 56.25,
     strikeRate: 165.85,
     wickets: 0,
+    hundreds: 1,
+    fifties: 5,
   },
   {
     id: 5,
@@ -63,6 +71,8 @@ const players = [
     average: 48,
     strikeRate: 160,
     wickets: 0,
+    hundreds: 0,
+    fifties: 6,
   },
   {
     id: 6,
@@ -76,6 +86,8 @@ const players = [
     average: 40.13,
     strikeRate: 182.42,
     wickets: 0,
+    hundreds: 0,
+    fifties: 6,
   },
   {
     id: 7,
@@ -89,6 +101,8 @@ const players = [
     average: 45.62,
     strikeRate: 174.41,
     wickets: 0,
+    hundreds: 1,
+    fifties: 5,
   },
   {
     id: 8,
@@ -102,6 +116,8 @@ const players = [
     average: 40.21,
     strikeRate: 204.73,
     wickets: 0,
+    hundreds: 1,
+    fifties: 4,
   },
   {
     id: 9,
@@ -115,6 +131,8 @@ const players = [
     average: 43.31,
     strikeRate: 163.19,
     wickets: 0,
+    hundreds: 1,
+    fifties: 3,
   },
   {
     id: 10,
@@ -128,6 +146,8 @@ const players = [
     average: 37.57,
     strikeRate: 152.46,
     wickets: 0,
+    hundreds: 0,
+    fifties: 4,
   },
   {
     id: 11,
@@ -141,6 +161,8 @@ const players = [
     average: 36.79,
     strikeRate: 154.65,
     wickets: 0,
+    hundreds: 0,
+    fifties: 6,
   },
   {
     id: 12,
@@ -154,6 +176,8 @@ const players = [
     average: 42.5,
     strikeRate: 168.87,
     wickets: 0,
+    hundreds: 0,
+    fifties: 6,
   },
   {
     id: 13,
@@ -167,6 +191,8 @@ const players = [
     average: 41.75,
     strikeRate: 192.69,
     wickets: 0,
+    hundreds: 0,
+    fifties: 5,
   },
   {
     id: 14,
@@ -180,6 +206,8 @@ const players = [
     average: 55.33,
     strikeRate: 168.81,
     wickets: 0,
+    hundreds: 1,
+    fifties: 5,
   },
   {
     id: 15,
@@ -193,6 +221,8 @@ const players = [
     average: 44.64,
     strikeRate: 163.12,
     wickets: 0,
+    hundreds: 1,
+    fifties: 2,
   },
   {
     id: 16,
@@ -206,6 +236,8 @@ const players = [
     average: 43.36,
     strikeRate: 165.62,
     wickets: 0,
+    hundreds: 2,
+    fifties: 1,
   },
   {
     id: 17,
@@ -219,6 +251,8 @@ const players = [
     average: 33.14,
     strikeRate: 168.73,
     wickets: 0,
+    hundreds: 0,
+    fifties: 3,
   },
   {
     id: 18,
@@ -232,6 +266,8 @@ const players = [
     average: 40.73,
     strikeRate: 186.67,
     wickets: 0,
+    hundreds: 1,
+    fifties: 2,
   },
   {
     id: 19,
@@ -245,6 +281,8 @@ const players = [
     average: 30.5,
     strikeRate: 152.5,
     wickets: 0,
+    hundreds: 0,
+    fifties: 3,
   },
   {
     id: 20,
@@ -258,6 +296,8 @@ const players = [
     average: 42.2,
     strikeRate: 146.53,
     wickets: 0,
+    hundreds: 0,
+    fifties: 5,
   },
   {
     id: 21,
@@ -271,6 +311,8 @@ const players = [
     average: 27.33,
     strikeRate: 170.12,
     wickets: 1,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 22,
@@ -284,6 +326,8 @@ const players = [
     average: 37.7,
     strikeRate: 150.2,
     wickets: 1,
+    hundreds: 0,
+    fifties: 3,
   },
   {
     id: 23,
@@ -297,6 +341,8 @@ const players = [
     average: 28,
     strikeRate: 211.63,
     wickets: 0,
+    hundreds: 0,
+    fifties: 3,
   },
   {
     id: 24,
@@ -310,6 +356,8 @@ const players = [
     average: 29.92,
     strikeRate: 145.93,
     wickets: 0,
+    hundreds: 1,
+    fifties: 2,
   },
   {
     id: 25,
@@ -323,6 +371,8 @@ const players = [
     average: 34.9,
     strikeRate: 214.11,
     wickets: 0,
+    hundreds: 1,
+    fifties: 1,
   },
   {
     id: 26,
@@ -336,6 +386,8 @@ const players = [
     average: 28.08,
     strikeRate: 123.44,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 27,
@@ -349,6 +401,8 @@ const players = [
     average: 25.77,
     strikeRate: 135.08,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 28,
@@ -362,6 +416,8 @@ const players = [
     average: 32.2,
     strikeRate: 145.7,
     wickets: 7,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 29,
@@ -375,6 +431,8 @@ const players = [
     average: 26.5,
     strikeRate: 147.22,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 30,
@@ -388,6 +446,8 @@ const players = [
     average: 35.22,
     strikeRate: 179.1,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 31,
@@ -401,6 +461,8 @@ const players = [
     average: 28.36,
     strikeRate: 138.05,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 32,
@@ -414,6 +476,8 @@ const players = [
     average: 23.77,
     strikeRate: 157.65,
     wickets: 2,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 33,
@@ -427,6 +491,8 @@ const players = [
     average: 33.89,
     strikeRate: 188.27,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 34,
@@ -440,6 +506,8 @@ const players = [
     average: 30.2,
     strikeRate: 171.59,
     wickets: 8,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 35,
@@ -453,6 +521,8 @@ const players = [
     average: 32.78,
     strikeRate: 136.57,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 36,
@@ -466,6 +536,8 @@ const players = [
     average: 59,
     strikeRate: 148.99,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 37,
@@ -479,6 +551,8 @@ const players = [
     average: 35.38,
     strikeRate: 157.22,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 38,
@@ -492,6 +566,8 @@ const players = [
     average: 27.8,
     strikeRate: 158.86,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 39,
@@ -505,6 +581,8 @@ const players = [
     average: 34.38,
     strikeRate: 127.31,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 40,
@@ -518,6 +596,8 @@ const players = [
     average: 38.57,
     strikeRate: 158.82,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 41,
@@ -531,6 +611,8 @@ const players = [
     average: 20.77,
     strikeRate: 147.54,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 42,
@@ -544,6 +626,8 @@ const players = [
     average: 53.2,
     strikeRate: 186.01,
     wickets: 0,
+    hundreds: 0,
+    fifties: 3,
   },
   {
     id: 43,
@@ -557,6 +641,8 @@ const players = [
     average: 66.5,
     strikeRate: 135.03,
     wickets: 10,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 44,
@@ -570,6 +656,8 @@ const players = [
     average: 36,
     strikeRate: 147.37,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 45,
@@ -583,6 +671,8 @@ const players = [
     average: 18,
     strikeRate: 127.87,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 46,
@@ -596,6 +686,8 @@ const players = [
     average: 25.67,
     strikeRate: 138.32,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 47,
@@ -609,6 +701,8 @@ const players = [
     average: 37.67,
     strikeRate: 145.81,
     wickets: 14,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 48,
@@ -622,6 +716,8 @@ const players = [
     average: 25,
     strikeRate: 151.01,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 49,
@@ -635,6 +731,8 @@ const players = [
     average: 36,
     strikeRate: 180,
     wickets: 2,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 50,
@@ -648,6 +746,8 @@ const players = [
     average: 21.5,
     strikeRate: 152.48,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 51,
@@ -661,6 +761,8 @@ const players = [
     average: 35.17,
     strikeRate: 154.01,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 52,
@@ -674,6 +776,8 @@ const players = [
     average: 52.25,
     strikeRate: 186.61,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 53,
@@ -687,6 +791,8 @@ const players = [
     average: 22.89,
     strikeRate: 138.26,
     wickets: 4,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 54,
@@ -700,6 +806,8 @@ const players = [
     average: 33.67,
     strikeRate: 168.33,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 55,
@@ -713,6 +821,8 @@ const players = [
     average: 33.5,
     strikeRate: 177.88,
     wickets: 0,
+    hundreds: 0,
+    fifties: 2,
   },
   {
     id: 56,
@@ -726,6 +836,8 @@ const players = [
     average: 27.14,
     strikeRate: 143.94,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 57,
@@ -739,6 +851,8 @@ const players = [
     average: 38,
     strikeRate: 134.75,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 58,
@@ -752,6 +866,8 @@ const players = [
     average: 19.22,
     strikeRate: 131.06,
     wickets: 11,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 59,
@@ -765,6 +881,8 @@ const players = [
     average: 34.2,
     strikeRate: 181.91,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 60,
@@ -778,6 +896,8 @@ const players = [
     average: 28.33,
     strikeRate: 141.67,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 61,
@@ -791,6 +911,8 @@ const players = [
     average: 23,
     strikeRate: 169.47,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 62,
@@ -804,6 +926,8 @@ const players = [
     average: 39.5,
     strikeRate: 175.56,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 63,
@@ -817,6 +941,8 @@ const players = [
     average: 22.29,
     strikeRate: 159.18,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 64,
@@ -830,6 +956,8 @@ const players = [
     average: 18.88,
     strikeRate: 127.97,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 65,
@@ -843,6 +971,8 @@ const players = [
     average: 27.8,
     strikeRate: 182.89,
     wickets: 2,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 66,
@@ -856,6 +986,8 @@ const players = [
     average: 27.2,
     strikeRate: 158.14,
     wickets: 14,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 67,
@@ -869,6 +1001,8 @@ const players = [
     average: 66,
     strikeRate: 162.96,
     wickets: 0,
+    hundreds: 1,
+    fifties: 0,
   },
   {
     id: 68,
@@ -882,6 +1016,8 @@ const players = [
     average: 22,
     strikeRate: 188.57,
     wickets: 4,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 69,
@@ -895,6 +1031,8 @@ const players = [
     average: 18.43,
     strikeRate: 201.56,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 70,
@@ -908,6 +1046,8 @@ const players = [
     average: 24.6,
     strikeRate: 164,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 71,
@@ -921,6 +1061,8 @@ const players = [
     average: 19.33,
     strikeRate: 131.82,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 72,
@@ -934,6 +1076,8 @@ const players = [
     average: 12.89,
     strikeRate: 122.11,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 73,
@@ -947,6 +1091,8 @@ const players = [
     average: 27,
     strikeRate: 122.73,
     wickets: 0,
+    hundreds: 0,
+    fifties: 1,
   },
   {
     id: 74,
@@ -960,6 +1106,8 @@ const players = [
     average: 13.71,
     strikeRate: 124.68,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 75,
@@ -973,6 +1121,8 @@ const players = [
     average: 30.67,
     strikeRate: 133.33,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 76,
@@ -986,6 +1136,8 @@ const players = [
     average: 45,
     strikeRate: 134.33,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 77,
@@ -999,6 +1151,8 @@ const players = [
     average: 20.75,
     strikeRate: 125.76,
     wickets: 7,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 78,
@@ -1012,6 +1166,8 @@ const players = [
     average: 16.4,
     strikeRate: 120.59,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 79,
@@ -1025,6 +1181,8 @@ const players = [
     average: 20.25,
     strikeRate: 139.66,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 80,
@@ -1038,6 +1196,8 @@ const players = [
     average: 13.17,
     strikeRate: 146.3,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 81,
@@ -1051,6 +1211,8 @@ const players = [
     average: 13,
     strikeRate: 113.04,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 82,
@@ -1064,6 +1226,8 @@ const players = [
     average: 35,
     strikeRate: 142.86,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 83,
@@ -1077,6 +1241,8 @@ const players = [
     average: 16.75,
     strikeRate: 124.07,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 84,
@@ -1090,6 +1256,8 @@ const players = [
     average: 13,
     strikeRate: 125,
     wickets: 17,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 85,
@@ -1103,6 +1271,8 @@ const players = [
     average: 10.83,
     strikeRate: 114.04,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 86,
@@ -1116,6 +1286,8 @@ const players = [
     average: 10.67,
     strikeRate: 136.17,
     wickets: 25,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 87,
@@ -1129,6 +1301,8 @@ const players = [
     average: 12.6,
     strikeRate: 136.96,
     wickets: 1,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 88,
@@ -1142,6 +1316,8 @@ const players = [
     average: 12.6,
     strikeRate: 126,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 89,
@@ -1155,6 +1331,8 @@ const players = [
     average: 20,
     strikeRate: 117.65,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 90,
@@ -1168,6 +1346,8 @@ const players = [
     average: 58,
     strikeRate: 152.63,
     wickets: 21,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 91,
@@ -1181,6 +1361,8 @@ const players = [
     average: 58,
     strikeRate: 141.46,
     wickets: 5,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 92,
@@ -1194,6 +1376,8 @@ const players = [
     average: 8.83,
     strikeRate: 115.22,
     wickets: 9,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 93,
@@ -1207,6 +1391,8 @@ const players = [
     average: 13,
     strikeRate: 133.33,
     wickets: 9,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 94,
@@ -1220,6 +1406,8 @@ const players = [
     average: 26,
     strikeRate: 192.59,
     wickets: 3,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 95,
@@ -1233,6 +1421,8 @@ const players = [
     average: 12.75,
     strikeRate: 113.33,
     wickets: 9,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 96,
@@ -1246,6 +1436,8 @@ const players = [
     average: 50,
     strikeRate: 161.29,
     wickets: 12,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 97,
@@ -1259,6 +1451,8 @@ const players = [
     average: 12.5,
     strikeRate: 121.95,
     wickets: 21,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 98,
@@ -1272,6 +1466,8 @@ const players = [
     average: 23.5,
     strikeRate: 123.68,
     wickets: 29,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 99,
@@ -1285,6 +1481,8 @@ const players = [
     average: 11.5,
     strikeRate: 139.39,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
   {
     id: 100,
@@ -1298,6 +1496,8 @@ const players = [
     average: 10.75,
     strikeRate: 130.3,
     wickets: 0,
+    hundreds: 0,
+    fifties: 0,
   },
 ];
 

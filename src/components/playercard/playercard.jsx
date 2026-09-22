@@ -11,6 +11,8 @@ function PlayerCard({
   wickets,
   average,
   strikeRate,
+  hundreds,
+  fifties,
 }) {
   return (
     <div className="bg-slate-900 rounded-2xl overflow-hidden shadow-lg hover:shadow-blue-500/20 transition duration-300 border border-slate-800">
@@ -51,6 +53,16 @@ function PlayerCard({
             <p className="text-xl font-bold text-white">{average}</p>
           </div>
 
+          <div className="bg-slate-800 rounded-xl p-3 text-center">
+            <p className="text-slate-400 text-sm">Hundreds</p>
+            <p className="text-xl font-bold text-white">{hundreds}</p>
+          </div>
+
+          <div className="bg-slate-800 rounded-xl p-3 text-center">
+            <p className="text-slate-400 text-sm">Fifties</p>
+            <p className="text-xl font-bold text-white">{fifties}</p>
+          </div>
+
         </div>
 
         <div className="mt-6 flex items-center justify-between">
@@ -75,4 +87,4 @@ function PlayerCard({
   );
 }
 
-export default PlayerCard;
+export default PlayerCard;  

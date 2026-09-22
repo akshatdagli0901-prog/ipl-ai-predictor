@@ -34,7 +34,7 @@ function Players() {
           </h1>
 
           <p className="text-slate-400 mt-4 text-lg">
-            Browse player profiles and career statistics.
+            Browse player profiles and 2026 season statistics.
           </p>
         </div>
 
@@ -85,6 +85,8 @@ function Players() {
                 wickets={player.wickets}
                 average={player.average}
                 strikeRate={player.strikeRate}
+                hundreds={player.hundreds}
+                fifties={player.fifties}
               />
             ))
           ) : (
